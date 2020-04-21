@@ -1,0 +1,11 @@
+html,
+body {
+  width: 21cm;
+  height: 29.7cm;
+  margin: 0 auto;
+  font-family: 'Fira Mono', monospace;
+}
+/* 
+* {
+  outline: solid 0.15rem red;
+} */

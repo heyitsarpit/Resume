@@ -1,5 +1,13 @@
 import styled from '@emotion/styled';
 
+const HeaderStyles = styled.header`
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1px 1cm;
+  grid-template-areas: '. .';
+`;
+
 const Name = styled.h1``;
 
 const Contacts: React.FC = () => {
@@ -7,10 +15,10 @@ const Contacts: React.FC = () => {
 };
 
 const Header: React.FC = () => (
-  <section>
+  <HeaderStyles>
     <Name>Arpit Bharti</Name>
     <Contacts />
-  </section>
+  </HeaderStyles>
 );
 
 export default Header;
